@@ -53,11 +53,11 @@ button:focus {
 }
 
 .backgroundClass {
-   background:  url(/test.gif) no-repeat center center fixed; 
+   background:  url(test.gif) no-repeat center center fixed; 
   background-size: cover;
 }
 .mainpage {
-   background:  url(/test.gif) no-repeat center center fixed; 
+   background:  url(test.gif) no-repeat center center fixed; 
   background-size: cover;
   position: fixed;
   left: 50%;
