@@ -57,6 +57,8 @@ button:focus {
   background-size: cover;
 }
 .mainpage {
+   background:  url(/test.gif) no-repeat center center fixed; 
+  background-size: cover;
   position: fixed;
   left: 50%;
   top: 50%;
