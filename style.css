@@ -86,6 +86,11 @@ button:focus {
 
 }
 
+.firstvid {
+  width: 100%;
+  height: auto;
+}
+
 .firstbut {
   display: block;
   width: 200px;
