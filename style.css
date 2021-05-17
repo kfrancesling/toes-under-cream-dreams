@@ -81,14 +81,19 @@ button:focus {
   text-align: center;
   padding:30px;
 }
-.wrapper{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+.container {
+  height: 80%;
+  position: relative;
 }
 
+.centre {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .firstvid {
   width: 100%;
   height: auto;
