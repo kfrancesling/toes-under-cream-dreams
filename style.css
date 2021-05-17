@@ -54,7 +54,7 @@ button:focus {
 
 .backgroundClass {
   background-size: cover;
-  background-color:#FAF0E6;
+  background-image:url();
 }
 .mainpage {
   background-color:#FAF0E6;
@@ -108,6 +108,7 @@ button:focus {
   text-align: center;
   position: relative;
   transition: all .35s;
+  padding: 20px;
 }
 
 .firstbut span{
