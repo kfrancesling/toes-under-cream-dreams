@@ -77,9 +77,9 @@ button:focus {
 .title {
   font-family: helvetica, sans-serif;
   color: grey;
-  font-size:4vw;
+  font-size:1vw;
   text-align: center;
-  padding: 80px;
+  padding: 60px;
 }
 .wrapper{
   position: fixed;
