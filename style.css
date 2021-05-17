@@ -79,6 +79,7 @@ button:focus {
   color: grey;
   font-size:3vw;
   text-align: center;
+  padding:30px;
 }
 .wrapper{
   position: fixed;
