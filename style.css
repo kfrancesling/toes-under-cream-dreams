@@ -56,6 +56,7 @@ button:focus {
   background-size: cover;
 }
 .mainpage {
+  background-color:#FAF0E6;
   background-size: cover;
   position: fixed;
   left: 50%;
