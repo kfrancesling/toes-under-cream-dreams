@@ -54,7 +54,7 @@ button:focus {
 
 .backgroundClass {
   background-size: cover;
-  background-image:url();
+  background-image:url('test.gif');
 }
 .mainpage {
   background-color:#FAF0E6;
