@@ -54,6 +54,7 @@ button:focus {
 
 .backgroundClass {
   background-size: cover;
+  background-color:#FAF0E6;
 }
 .mainpage {
   background-color:#FAF0E6;
@@ -76,7 +77,7 @@ button:focus {
 .title {
   font-family: helvetica, sans-serif;
   color: grey;
-  font-size:1vw;
+  font-size:3vw;
   text-align: center;
 }
 .wrapper{
