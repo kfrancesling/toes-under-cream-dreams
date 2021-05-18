@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  height:100%;
   cursor:url(seaweed.png), auto;
 }
 .bg {
@@ -15,7 +16,7 @@ html, body {
 @media only screen and (max-device-width: 480px) {
   .bg {
 
-    background-image: url("phonegif.gif");
+    background-image: url("bgphone.png");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -107,10 +108,6 @@ button:focus {
   max-width: 50%;
   height: auto;
   background-color:#b2bfae;
-  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABWUlEQVRYR92ZOxLCMAwFSUXL/U9JS5VUzjDyvFlZUsAOHSiON09fh+0Bn/392b8v2V7PjdZcYcdNpwe1gFmVsp6Qik4LqsCySlSFzqnosqBZJW1MR0OpcUhFpwclQBVzFItkbx5o11mOTtHlQb2KWGXa9yaAUqxM0eVAvcqoTvYzRacBpZ5OyUbrKRbdWU8b/R1UdRILRjFGD0p2VPQ2oKPlibJe1Vf7+/mdbmizXN2IXOptBGWg2WRSMUixjxN+tm5Wxf4waNb1NKcqj90PlDqKN5koea29m/CrYikKTGe2yw93o+DYmeiJRjeMXu8GzdbJasCuM1HBjQJ419H+w4e76uz3zhDrgo52HnIZud67Pv2mxLsRFXpK4q6FRt8RKRAaarwPui4oxZTXTkp5sx0nfC9QNPamAVVHDzUdkTD4rwjdgOyUnJTtl7s+GhKyepAi1XZKMrXfAa+P0Dr4Jz38AAAAAElFTkSuQmCC") 14 /  14px / 0 round;
-  border-width:  6px;
-  border-style:  solid;
-  border-radius: 3px;
   justify-content: center;
   padding: 1rem;
 }
@@ -124,23 +121,30 @@ button:focus {
     margin: 0 auto;
   max-width: 100%;
   height: auto;
-  background-color:#ede7e1;
+  background-color:#b2bfae;
   /*border-radius: 3px;*/
   padding-top: 4rem;
   }
 }
 @media only screen and (max-device-width: 480px) {
   .container {
-    padding-top: 50%;
+    padding-top: 30%;
   }
   .center-div {
     margin: 0 auto;
   max-width: 100%;
   height: auto;
-  background-color:#ede7e1;
+  background-color:#b2bfae;
   /*border-radius: 3px;*/
   padding-top: 4rem;
   }
+  .title {
+    font-family: helvetica, sans-serif;
+    color: grey;
+    font-size:3rem;
+    text-align: center;
+  
+}
 }
 .title {
   font-family: helvetica, sans-serif;
@@ -159,16 +163,12 @@ button:focus {
   display: block;
   width: 25vw;
   height: 3vw;
-  line-height: 2.8vw;
+  line-height: 3vw;
   font-size: 2vw;
   font-family: sans-serif;
   text-decoration: none;
   color: grey;
-  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABWUlEQVRYR92ZOxLCMAwFSUXL/U9JS5VUzjDyvFlZUsAOHSiON09fh+0Bn/392b8v2V7PjdZcYcdNpwe1gFmVsp6Qik4LqsCySlSFzqnosqBZJW1MR0OpcUhFpwclQBVzFItkbx5o11mOTtHlQb2KWGXa9yaAUqxM0eVAvcqoTvYzRacBpZ5OyUbrKRbdWU8b/R1UdRILRjFGD0p2VPQ2oKPlibJe1Vf7+/mdbmizXN2IXOptBGWg2WRSMUixjxN+tm5Wxf4waNb1NKcqj90PlDqKN5koea29m/CrYikKTGe2yw93o+DYmeiJRjeMXu8GzdbJasCuM1HBjQJ419H+w4e76uz3zhDrgo52HnIZud67Pv2mxLsRFXpK4q6FRt8RKRAaarwPui4oxZTXTkp5sx0nfC9QNPamAVVHDzUdkTD4rwjdgOyUnJTtl7s+GhKyepAi1XZKMrXfAa+P0Dr4Jz38AAAAAElFTkSuQmCC") 14 /  14px / 0 round;
-  border-width:  2px;
-  border-style:  solid;
-  border-radius: 2px;
-  /*border: solid grey 0.02em;*/
+ /* border: solid grey 0.02em; */
   text-align: center;
   letter-spacing: 0.2rem;
   position: relative;
