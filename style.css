@@ -74,6 +74,20 @@ button:focus {
     border-style:  solid;
 }
 
+body
+{
+  padding: 30px;
+  background-color: #fcfcfc;  
+}
+.center-div
+{
+  margin: 0 auto;
+  max-width: 700px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
 .title {
   font-family: helvetica, sans-serif;
   color: grey;
