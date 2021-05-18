@@ -54,7 +54,11 @@ button:focus {
 
 .backgroundClass {
   background-size: cover;
-  background-image:url('test.gif');
+  background: url('test.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .mainpage {
   background-color:#FAF0E6;
