@@ -78,13 +78,11 @@ button:focus {
     border-style:  solid;
 }
 
-body
-{
-  padding: 30px;
+.container {
+  padding: 7em;
   background-color: #fcfcfc;  
 }
-.center-div
-{
+.center-div {
   margin: 0 auto;
   max-width: 700px;
   height: 100px;
@@ -99,19 +97,7 @@ body
   text-align: center;
   padding:30px;
 }
-.container {
-  height: 500px;
-  position: relative;
-}
 
-.centre {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 .firstvid {
   width: 100%;
   height: auto;
